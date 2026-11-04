@@ -82,7 +82,7 @@ export default function HomePage({ onStart, error }) {
         </div>
 
         <div className={styles.footer}>
-          <span className="blink">INSERT COIN</span> &nbsp;©2026 雲林縣政府
+          <span className="blink">INSERT COIN</span> &nbsp;©2026 雲林縣政府 x 中華電信
           AI 課程
         </div>
       </div>
