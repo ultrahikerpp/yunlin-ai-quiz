@@ -30,13 +30,11 @@
 ## 首頁 Logo
 
 將雲林縣政府 Logo 存為 `public/logo_yunlin.png`（建議去背 PNG、寬度 600px 以上）。檔案不存在時，首頁會自動顯示文字徽章「雲林縣政府」。
-Logo 來源：[雲林縣政府計畫處「雲林上場 logo 免費下載」](https://planning.yunlin.gov.tw/News_Content.aspx?n=1115&s=243289)。
+Logo 來源（雲林上場 It's Our Time）：[雲林縣政府計畫處「雲林上場 logo 免費下載」](https://planning.yunlin.gov.tw/News_Content.aspx?n=1115&s=243289)。
 
-## 多單位共用同一份 Sheet 的注意事項
+## 資料紀錄說明
 
-「回答」工作表以學員 ID 為唯一鍵，且沒有「單位／場次」欄位。衛生局與稅務局學員、以及原工研院版學員的紀錄會混在一起。建議課前請學員以單位代碼加前綴，例如 `tax_王小明`、`health_王小明`，避免同名覆蓋累計。
-
----
+「回答」工作表以學員 ID（姓名）為唯一鍵；每梯次課程結束後會清空作答紀錄，因此不需要依單位或場次另外命名。
 
 ## 本地啟動
 
