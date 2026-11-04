@@ -180,6 +180,15 @@ npm run dev
 
 ---
 
+## Vercel 部署（私有 repo 也可用）
+
+1. Vercel → Add New → Project，匯入此 repo（Framework: Vite，Build `npm run build`，Output `dist`）。
+2. Environment Variables 新增：
+   - `VITE_BASE` = `/`
+   - `VITE_GAS_URL` = Apps Script Web App 網址（`https://script.google.com/macros/s/.../exec`）
+   - 選用：`VITE_PASS_THRESHOLD`（預設 7）、`VITE_QUESTION_COUNT`（預設 10）
+3. Deploy。之後每次 push 到 main 會自動重新部署。
+
 ## 題目格式與範例
 
 以下是 10 道「**生成式 AI 基礎知識**」選擇題，可直接複製貼入 Google Sheets 的「題目」工作表（從第 2 列開始貼上）。
